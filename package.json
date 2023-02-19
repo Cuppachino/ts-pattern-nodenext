@@ -1,6 +1,6 @@
 {
   "name": "ts-pattern",
-  "version": "4.1.4-nodenext.1",
+  "version": "4.1.4-nodenext.2",
   "description": " The exhaustive Pattern Matching library for TypeScript.",
   "type": "module",
   "source": "src/index.ts",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "microbundle --tsconfig ./tsconfig.prod.json",
     "dev": "microbundle watch --tsconfig ./tsconfig.prod.json",
-    "prepublishOnly": "npm run test && npm run build",
+    "prepubOnly": "npm run test && npm run build",
     "test": "jest",
     "clear-test": "jest --clearCache",
     "perf": "./node_modules/.bin/tsc --project tests/tsconfig.json --noEmit --extendedDiagnostics",
