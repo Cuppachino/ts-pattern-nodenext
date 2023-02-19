@@ -32,10 +32,23 @@
   "files": [
     "dist/**/*"
   ],
+  "author": {
+    "name": "Jacob Bergholtz",
+    "url": "https://github.com/cuppachino",
+    "email": "cuppachino.dev@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gvergnaud/ts-pattern.git"
+    "url": "git+ssh://git@github.com/cuppachino/ts-pattern-nodenext.git"
   },
+  "license": "MIT",
+  "homepage": "https://github.com/gvergnaud/ts-pattern#readme",
+  "contributors": [
+    {
+      "name": "Gabriel Vergnaud",
+      "url": "https://github.com/gvergnaud/ts-pattern.git"
+    }
+  ],
   "keywords": [
     "pattern",
     "matching",
@@ -46,12 +59,6 @@
     "switch",
     "adt"
   ],
-  "author": "Gabriel Vergnaud",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gvergnaud/ts-pattern/issues"
-  },
-  "homepage": "https://github.com/gvergnaud/ts-pattern#readme",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.4.5",
