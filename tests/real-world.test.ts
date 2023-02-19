@@ -1,6 +1,6 @@
 import { match, P } from '../src';
-import { Equal, Expect } from '../src/types/helpers';
-import { Definition } from './types-catalog/definition';
+import type { Equal, Expect } from '../src/types/helpers';
+import type { Definition } from './types-catalog/definition';
 
 describe('real world example of a complex input type', () => {
   const f = (def: Definition) =>

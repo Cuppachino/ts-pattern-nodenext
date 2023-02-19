@@ -1,6 +1,6 @@
-import { Expect, Equal } from '../src/types/helpers';
+import type { Expect, Equal } from '../src/types/helpers';
 import { match, P } from '../src';
-import { Option } from './types-catalog/utils';
+import type { Option } from './types-catalog/utils';
 
 describe('Unions (a | b)', () => {
   it('should match discriminated unions', () => {

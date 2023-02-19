@@ -1,6 +1,6 @@
 import { match, P } from '../src';
-import { Equal, Expect } from '../src/types/helpers';
-import { State } from './types-catalog/utils';
+import type { Equal, Expect } from '../src/types/helpers';
+import type { State } from './types-catalog/utils';
 
 describe('output type', () => {
   describe('exhaustive', () => {

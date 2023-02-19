@@ -1,5 +1,5 @@
 import { isMatching, P } from '../src';
-import { Equal, Expect } from '../src/types/helpers';
+import type { Equal, Expect } from '../src/types/helpers';
 
 describe('isMatching', () => {
   it('should generate a type guard function from a pattern if given a single argument', () => {

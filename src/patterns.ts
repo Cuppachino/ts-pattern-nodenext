@@ -4,9 +4,9 @@ import {
   flatMap,
 } from './internals/helpers.js';
 import * as symbols from './internals/symbols.js';
-import { GuardFunction } from './types/helpers.js';
-import { InvertPattern } from './types/InvertPattern.js';
-import {
+import type { GuardFunction } from './types/helpers.js';
+import type { InvertPattern } from './types/InvertPattern.js';
+import type {
   Pattern,
   UnknownPattern,
   OptionalP,

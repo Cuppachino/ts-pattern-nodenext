@@ -1,6 +1,6 @@
 import { match, P } from '../src';
-import { Option } from './types-catalog/utils';
-import { Expect, Equal } from '../src/types/helpers';
+import type { Option } from './types-catalog/utils';
+import type { Expect, Equal } from '../src/types/helpers';
 
 describe('Multiple patterns', () => {
   it('should match if one of the patterns matches', () => {

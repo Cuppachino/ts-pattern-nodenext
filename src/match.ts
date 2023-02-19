@@ -1,6 +1,6 @@
-import { Pattern } from './types/Pattern.js';
-import { GuardValue } from './types/helpers.js';
-import { Match, PickReturnValue } from './types/Match.js';
+import type { Pattern } from './types/Pattern.js';
+import type { GuardValue } from './types/helpers.js';
+import type { Match, PickReturnValue } from './types/Match.js';
 import * as symbols from './internals/symbols.js';
 import { matchPattern } from './internals/helpers.js';
 

@@ -1,18 +1,18 @@
-import * as symbols from '../src/internals/symbols';
-import {
+import type * as symbols from '../src/internals/symbols';
+import type {
   FindSelected,
   MixedNamedAndAnonymousSelectError,
   SeveralAnonymousSelectError,
 } from '../src/types/FindSelected';
-import { Equal, Expect } from '../src/types/helpers';
-import {
+import type { Equal, Expect } from '../src/types/helpers';
+import type {
   Matcher,
   SelectP,
   NotP,
   OptionalP,
   ArrayP,
 } from '../src/types/Pattern';
-import { Event, State } from './types-catalog/utils';
+import type { Event, State } from './types-catalog/utils';
 
 type AnonymousSelectP = SelectP<symbols.anonymousSelectKey>;
 

@@ -1,5 +1,5 @@
 import { match, P } from '../src';
-import { Equal, Expect } from '../src/types/helpers';
+import type { Equal, Expect } from '../src/types/helpers';
 import {
   Option,
   some,

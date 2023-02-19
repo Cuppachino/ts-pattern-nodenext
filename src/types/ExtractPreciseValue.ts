@@ -7,7 +7,7 @@ import type {
   IsPlainObject,
   LeastUpperBound,
 } from './helpers.js';
-import { DeepExclude } from './DeepExclude.js';
+import type { DeepExclude } from './DeepExclude.js';
 
 export type ExtractPreciseValue<a, b> = unknown extends b
   ? a

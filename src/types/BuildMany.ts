@@ -1,4 +1,4 @@
-import { Cast, Compute, Iterator, UpdateAt } from './helpers.js';
+import type { Cast, Compute, Iterator, UpdateAt } from './helpers.js';
 
 // BuildMany :: DataStructure -> Union<[value, path][]> -> Union<DataStructure>
 export type BuildMany<data, xs extends any[]> = xs extends any

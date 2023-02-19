@@ -1,6 +1,6 @@
 import type * as symbols from '../internals/symbols.js';
-import { Primitives } from './helpers.js';
-import { None, Some, SelectionType } from './FindSelected.js';
+import type { Primitives } from './helpers.js';
+import type { None, Some, SelectionType } from './FindSelected.js';
 
 export type MatcherType =
   | 'not'

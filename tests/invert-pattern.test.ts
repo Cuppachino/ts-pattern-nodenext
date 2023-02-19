@@ -1,6 +1,6 @@
-import { Equal, Expect } from '../src/types/helpers';
-import { InvertPatternForExclude } from '../src/types/InvertPattern';
-import { Matcher } from '../src/types/Pattern';
+import type { Equal, Expect } from '../src/types/helpers';
+import type { InvertPatternForExclude } from '../src/types/InvertPattern';
+import type { Matcher } from '../src/types/Pattern';
 
 describe('InvertPatternForExclude', () => {
   it('should correctly invert type guards', () => {

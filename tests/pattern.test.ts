@@ -1,6 +1,6 @@
-import { P } from '../src';
-import { Equal, Expect } from '../src/types/helpers';
-import { Matcher } from '../src/types/Pattern';
+import type { P } from '../src';
+import type { Equal, Expect } from '../src/types/helpers';
+import type { Matcher } from '../src/types/Pattern';
 
 type ExtendsPattern<a, p extends P.Pattern<a>> = true;
 

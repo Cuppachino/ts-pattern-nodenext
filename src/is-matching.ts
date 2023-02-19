@@ -1,6 +1,6 @@
-import { Pattern } from './types/Pattern.js';
-import { MatchedValue } from './types/Match.js';
-import * as P from './patterns.js';
+import type { Pattern } from './types/Pattern.js';
+import type { MatchedValue } from './types/Match.js';
+import type * as P from './patterns.js';
 import { matchPattern } from './internals/helpers.js';
 
 /**

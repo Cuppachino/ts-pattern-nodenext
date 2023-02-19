@@ -1,6 +1,11 @@
-import { Equal, Expect, IsPlainObject, Primitives } from '../src/types/helpers';
-import { IsMatching } from '../src/types/IsMatching';
-import { Option } from './types-catalog/utils';
+import type {
+  Equal,
+  Expect,
+  IsPlainObject,
+  Primitives,
+} from '../src/types/helpers';
+import type { IsMatching } from '../src/types/IsMatching';
+import type { Option } from './types-catalog/utils';
 
 describe('IsMatching', () => {
   describe('should return true if the pattern matches the input,  false otherwise', () => {

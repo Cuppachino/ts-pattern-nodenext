@@ -5,8 +5,8 @@
  */
 
 import * as symbols from './symbols.js';
-import { SelectionType } from '../types/FindSelected.js';
-import { Pattern, Matcher, MatcherType } from '../types/Pattern.js';
+import type { SelectionType } from '../types/FindSelected.js';
+import type { Pattern, Matcher, MatcherType } from '../types/Pattern.js';
 
 // @internal
 export const isObject = (value: unknown): value is Object =>

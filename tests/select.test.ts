@@ -1,7 +1,7 @@
-import { Expect, Equal } from '../src/types/helpers';
+import type { Expect, Equal } from '../src/types/helpers';
 import { match, P } from '../src';
-import { State, Event } from './types-catalog/utils';
-import {
+import type { State, Event } from './types-catalog/utils';
+import type {
   MixedNamedAndAnonymousSelectError,
   SeveralAnonymousSelectError,
 } from '../src/types/FindSelected';

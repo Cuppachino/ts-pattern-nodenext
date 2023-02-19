@@ -1,12 +1,12 @@
-import {
+import type {
   FindUnions,
   Distribute,
   DistributeMatchingUnions,
   FindUnionsMany,
 } from '../src/types/DistributeUnions';
 
-import { Equal, Expect } from '../src/types/helpers';
-import { Option } from './types-catalog/utils';
+import type { Equal, Expect } from '../src/types/helpers';
+import type { Option } from './types-catalog/utils';
 
 describe('FindAllUnions', () => {
   it('should correctly find all unions on an object', () => {

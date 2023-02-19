@@ -1,4 +1,4 @@
-import { Expect, Equal } from '../src/types/helpers';
+import type { Expect, Equal } from '../src/types/helpers';
 import { match, P } from '../src';
 
 describe('Map', () => {

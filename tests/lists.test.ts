@@ -1,6 +1,6 @@
 import { match, P } from '../src';
-import { Expect, Equal } from '../src/types/helpers';
-import { Option, Blog } from './types-catalog/utils';
+import type { Expect, Equal } from '../src/types/helpers';
+import type { Option, Blog } from './types-catalog/utils';
 
 describe('List ([a])', () => {
   it('should match list patterns', () => {

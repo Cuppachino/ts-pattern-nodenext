@@ -1,5 +1,5 @@
 import type * as symbols from '../internals/symbols.js';
-import type { Pattern, Matcher } from './Pattern.js';
+import type { Pattern } from './Pattern.js';
 import type { ExtractPreciseValue } from './ExtractPreciseValue.js';
 import type {
   InvertPatternForExclude,

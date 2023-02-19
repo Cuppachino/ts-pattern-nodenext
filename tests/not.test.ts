@@ -1,6 +1,6 @@
-import { Expect, Equal } from '../src/types/helpers';
+import type { Expect, Equal } from '../src/types/helpers';
 import { match, P } from '../src';
-import { Option } from './types-catalog/utils';
+import type { Option } from './types-catalog/utils';
 
 describe('not', () => {
   it('should work at the top level', () => {
@@ -165,7 +165,7 @@ describe('not', () => {
           (x) => {
             type t = Expect<
               Equal<
-                typeof x['value']['coords'],
+                (typeof x)['value']['coords'],
                 {
                   y: 'top' | 'bottom';
                   x: 'right';

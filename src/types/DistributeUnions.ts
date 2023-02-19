@@ -1,4 +1,4 @@
-import { BuildMany } from './BuildMany.js';
+import type { BuildMany } from './BuildMany.js';
 import type {
   IsAny,
   Cast,
@@ -9,7 +9,7 @@ import type {
   Length,
   UnionToTuple,
 } from './helpers.js';
-import { IsMatching } from './IsMatching.js';
+import type { IsMatching } from './IsMatching.js';
 
 /**
  * DistributeMatchingUnions takes two arguments:

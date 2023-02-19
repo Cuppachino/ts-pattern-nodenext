@@ -1,5 +1,5 @@
-import { DeepExclude } from './DeepExclude.js';
-import {
+import type { DeepExclude } from './DeepExclude.js';
+import type {
   IsPlainObject,
   Primitives,
   IsLiteral,

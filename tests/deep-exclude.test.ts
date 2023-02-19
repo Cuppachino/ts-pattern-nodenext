@@ -1,12 +1,12 @@
-import { DeepExclude } from '../src/types/DeepExclude';
-import {
+import type { DeepExclude } from '../src/types/DeepExclude';
+import type {
   DistributeMatchingUnions,
   FindUnions,
   FindUnionsMany,
 } from '../src/types/DistributeUnions';
-import { Primitives, Equal, Expect } from '../src/types/helpers';
-import { IsMatching } from '../src/types/IsMatching';
-import { BigUnion, Option, State } from './types-catalog/utils';
+import type { Primitives, Equal, Expect } from '../src/types/helpers';
+import type { IsMatching } from '../src/types/IsMatching';
+import type { BigUnion, Option, State } from './types-catalog/utils';
 
 type Colors = 'pink' | 'purple' | 'red' | 'yellow' | 'blue';
 

@@ -1,6 +1,6 @@
-import { Expect, Equal } from '../src/types/helpers';
+import type { Expect, Equal } from '../src/types/helpers';
 import { match, P } from '../src';
-import { Blog } from './types-catalog/utils';
+import type { Blog } from './types-catalog/utils';
 
 describe('wildcards', () => {
   it('should match String wildcards', () => {
