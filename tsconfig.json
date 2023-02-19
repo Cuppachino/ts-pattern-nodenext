@@ -6,7 +6,19 @@
     "declaration": true,
     "target": "es6",
     "strict": true,
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "baseUrl": ".",
+    "paths": {
+      "ts-pattern": [
+        "./src/index.ts"
+      ],
+      "ts-pattern/*": [
+        "./src/*"
+      ]
+    },
   },
   "include": [
     "src"
