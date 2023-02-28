@@ -165,7 +165,7 @@ describe('not', () => {
           (x) => {
             type t = Expect<
               Equal<
-                (typeof x)['value']['coords'],
+                typeof x['value']['coords'],
                 {
                   y: 'top' | 'bottom';
                   x: 'right';

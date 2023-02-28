@@ -1,9 +1,8 @@
 {
-  "name": "ts-pattern",
-  "version": "4.2.1",
+  "name": "@cuppachino/ts-pattern",
+  "version": "0.1.0",
   "description": " The exhaustive Pattern Matching library for TypeScript.",
   "type": "module",
-  "source": "src/index.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
@@ -46,7 +45,10 @@
     "switch",
     "adt"
   ],
-  "author": "Gabriel Vergnaud",
+  "author": "cuppachino <cuppachino.dev@gmail.com>",
+  "contributors": [
+    "Gabriel Vergnaud"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gvergnaud/ts-pattern/issues"

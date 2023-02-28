@@ -1,4 +1,8 @@
-import { matchPattern, getSelectionKeys, flatMap } from './internals/helpers.js';
+import {
+  matchPattern,
+  getSelectionKeys,
+  flatMap,
+} from './internals/helpers.js';
 import * as symbols from './internals/symbols.js';
 import { GuardFunction, IsNever, Primitives } from './types/helpers.js';
 import { InvertPattern } from './types/InvertPattern.js';
